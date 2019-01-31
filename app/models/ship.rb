@@ -16,6 +16,6 @@ class Ship
   end
 
   def self.destroy_all
-    self.all.clear
+    @@all = []
   end
 end
